@@ -4,6 +4,7 @@ body {
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  font-size: 22px;
 }
 
 /* header */
@@ -34,7 +35,6 @@ body {
 }
 .nav li {
   display: inline-block;
-  font-size: 22px;
   padding: 0 10px;
 }
 
@@ -52,6 +52,7 @@ a {
   align-items: center;
 }
 
+/* mission */
 .mission {
   padding-top: 69px;
   padding-bottom: 30px;
@@ -73,7 +74,7 @@ a {
   text-align: center;
 }
 
-
+/* featured */
 .featured {
   display: flex;
   width: 1000px;
@@ -87,9 +88,12 @@ a {
 .sorts {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
+.tea {
+  margin: 15px;
+}
 .tea img {
   height: 200px;
   width: 300px;
@@ -97,4 +101,46 @@ a {
 .tea h4 {
   padding-top: 10px;
   text-align: center;
+}
+
+/* locations */
+.locations {
+  background-image: url(../images/locations.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+  padding-bottom: 0;
+}
+.loclist {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.address {
+  width: 300px;
+  margin: 20px;
+  background-color: black;
+  opacity: 1;
+}
+.address p {
+  padding: 10px 0;
+}
+
+/* contact */
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact h5 {
+  margin: 15px 0;
 }
