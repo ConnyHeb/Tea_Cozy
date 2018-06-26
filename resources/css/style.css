@@ -144,3 +144,11 @@ a {
 .contact h5 {
   margin: 15px 0;
 }
+
+
+/* footer */
+footer {
+  padding-left: 20px;
+  text-align: left;
+  height: 40px;
+}
